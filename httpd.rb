@@ -49,6 +49,8 @@ class Httpd < Formula
       </array>
       <key>RunAtLoad</key>
       <true/>
+      <key>StandardErrorPath</key>
+      <string>#{var}/apache2/log/stderr_log</string>
     </dict>
     </plist>
     EOS
